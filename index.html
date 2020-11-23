@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  <title>Responsive Sticky Navbar | CodingNepal</title> -->
+    <link rel="stylesheet" href="styl.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/200a2b71c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Printer Project</title>
+ 
+
+
+  </head>
+  <body>
+
+     <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+       
+          <img class="logo"src="images/index/logo.png" width="210px" height="80px">
+
+</div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+
+
+        <li><a href="#section1" class="nav-link Costom_nav smooth-scroll "data-target=".navbar-collapse.show"><i " style="red;"></i>Home</a></li>
+        <li><a href="#section2" class="nav-link Costom_nav smooth-scroll" data-target=".navbar-collapse.show"><i ></i>Services</a></li>
+        
+        <li> <a href="#section3" class="nav-link Costom_nav smooth-scroll"  data-target=".navbar-collapse.show"><i ></i>About</a></li>
+        <li> <a href="gallery.html" target="_blank" class="nav-link Costom_nav smooth-scroll"   data-target="_blank"><i></i>Gallery</a></li>
+        <li><a href="#section5" class="nav-link Costom_nav smooth-scroll"   data-target=".navbar-collapse.show"><i ></i>Contacts</a></li>
+      </ul>
+      
+        
+      
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="banner"></div>
+  <div class="about">
+    <div class="content">
+    
+  </div>
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+
+
+
+
+      
+ 
+        <div class="background">
+           
+        </div>
+         
+      
+      
+
+        <!--container-->
+        <div id="section2">
+        <div class="container-fluid pt-5">
+            <h3 style="font-size:40px;text-decoration:underline double red;color:blue;">SER<span style="color:green;">VICES:</span></h3>
+            <div class="container-fluid">
+                <img src="images/index/pp.jpeg" alt="..." width="300" height="300" style="border-radius:30%;" class="img-thumbnail ml-3">
+                <img src="images/index/e.jpeg" alt="..." width="300" height="300" style="border-radius:30%;" class="img-thumbnail ml-3">
+                <img src="images/index/bl.jpeg" alt="..." width="300" height="300" style="border-radius:30%;" class="img-thumbnail ml-3">
+                <img src="images/index/il.jpeg" alt="..." width="280" height="330" style="border-radius:30%;" class="img-thumbnail ml-3">
+            </div>
+            <div class="container-fluid">
+                <p class="p-4 pserve">
+                 We have all the accessories related to all models of printer Repair: PRS center is situated near Sankata mandir,Kathmandu ,Nepal. Our staffs have  years of Experience in printer repairing. We have a team that fixes your problem, as per required. PRS center service provides all types of service by which a printer can get a fix in a short time and starts functioning as per your requirement. We provide the best in quality service for every level of printer problems.We assure you quality,performance and guarantee.
+                 </br>
+                 </br>For more details click the button below :
+                 </p>
+                
+                <center>
+    <a href="services.html" target="_blank">
+       <div class="text" style="margin-left:30px;font-size:20px;">
+
+       <button>READ MORE</button>
+      
+    </a>
+    </br>
+    </br>
+    </br>
+    </br>
+  
+         </center>
+
+         
+           </div>
+            </div>
+        </div>
+
+ 
+    <div class="container-fluid">
+  
+         <div id="section3">
+            <h3 style="font-size:40px;text-decoration:underline double red;color:blue;">ABOUT<span style="color:green;">US:</span></h3>
+        </div>
+        <div class="">
+            <img src="images/index/1.jpeg" alt="..." width="300" height="300" style="border-radius:50%;"class="img-thumbnail ">
+            <img src="images/index/e.jpeg" alt="..." width="300" height="300" 
+            style="border-radius:50%;"class="img-thumbnail ">
+            <img src="images/index/al.jpeg" alt="..." width="350" height="400"
+            style="border-radius:50%;" class="img-thumbnail ">
+            <img src="images/index/h.jpeg" alt="..." width="300" height="300"
+            style="border-radius:50%;float:left;" class="img-thumbnail ">        
+        </div>
+        
+        <div class="container-fluid">
+            <p class="p-5 about">This website comprises of information related to printer selling, 
+                servicing and repairing at good cost.We provide service efficiently using technically 
+                advanced tools at our best . We have highly trained staff support, who has high technical
+                knowledge regarding tools and techniques needed for servicing. we are good at everything 
+                related to repairing.We sell best printers affordable and worth buying so that you wont
+                regret. We can deliver online service too if u give us a call.</p>
+
+                <p class="p-1 about"> 
+<u><i><b>What we have and How we offer?</b></i></u><br>We  sell best and every brands of printers,toners,repair them and sell cartridges like<i><strong>
+  compatible ink cartridge</i></strong>,<i><strong>Refill ink cartridge,color ink cartridge</i></strong>,<i><strong>black ink cartridge</i></strong> Similarly,We also have good
+  collection of types of printing inks here:<br> 
+  <u><b>phoenix printer inks,</u></b>
+        <u><b>inkjet printer inks,</u></b>
+        <u><b>cheapest printer inks,</u></b>
+<u><b>hp printer inks,</u></b>
+      <b><u>staples printer inks,</u></b>
+<u><b>genuine epson printer inks.</u></b>
+        <u><b>cheap epson printer inks</u></b></p>  <p class="p-1 about" ><u><i><b>Types of printers we repair:</b></i></u><br>
+          <b>Canon</b><br><b>Brother</b><br><b>Kyocerea mita</b><br><b>Lexmark</b><br><b>Ricoh</b><br><b>Savin</b><br><b>xerox</b><br><b>hp</b><br><b>Samsung</b><br><b>Toshiba</b><br><b>Konika</b><br>
+          <b>Minolta</b></u></p>
+          
+       <p class="p-1 about"><strong>We provide door-to-door services on your call .Online Payment is also available here.</strong></p>
+
+        </div>
+
+        
+    </div>
+
+    <section id = "section5"  >
+     
+              <h3 style="font-size:40px;text-decoration:underline double red;color:blue;">CON<span style="color:green;">TACTS:</span></h3>
+               <div class="numbers">
+
+                <p style="text-align:center;display:inline;margin-left:5px;margin-top:100px;">
+                
+                <i class="fa fa-phone fa-2x fa-flip-horizontal"></i>
+        <strong>Phone numbers:</strong></li>
+        <div class="text" style="margin-left:30px;font-size:20px;">
+<ul>
+  <li>
+        <a >9851255643<br>
+  
+   <li>
+        <a>015713777
+    </li>
+
+     </u> 
+
+
+
+      </p>
+
+      
+      
+       </div>
+      
+
+
+
+                </div>
+             </div>
+             <div class="col-sm-12 col-md-6 mt-5">
+             <h4>Our Location:</h4>
+             
+                
+                 <div class="map">
+                  
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14129.968864076041!2d85.312096!3d27.702085!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x816b129af58f6fcd!2sSankata%20Mandir%20Bahal!5e0!3m2!1sen!2snp!4v1593242034683!5m2!1sen!2snp" width="100%" height="400px"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                 
+              </div>
+              </table>
+             </div>
+          </div>
+      </div>
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small  pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+  
+          <!-- Content -->
+          
+  
+        </div>
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none">
+  
+      
+        <div class="col-md-2 mx-auto">
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">PRS CENTER:</h5>
+        
+        
+  
+  
+         <img src="p.jpeg" width="330px" height="270px" border-radius=13px;>
+        </div>
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none"
+  
+      </div>
+      <!-- Grid row -->
+      <div class="col-md-2 mx-auto"
+  
+    </div>
+    <!-- Footer Links -->
+
+  
+  
+    <div class="footer-items">
+   <div class="footer">
+
+
+     <div class="inner-footer">
+
+     <div class="footer-items">
+    </div>
+    <div class="footer-items" style="padding:10px;text-align:center;">
+      <h9>Quick links</h9>
+ <ul>
+        <a href="#section1"> Home|<a href="#section3"> Services| <a href="#section3"> About|<a href="gallery.html"> Gallery|<a href="#section5" style="flex-direction:row;"> Contact</a><br>
+        <div class="footer-items" style="padding:12px;text-align:center;">
+
+        
+
+       
+          <a href="https://www.facebook.com/PRS-Centre-100288661716458/"><i class="fab fa-2x fa-facebook-f" style="flex-direction: row;"></i></li>
+           |
+           <a href="https://mail.google.com/mail/u/5/#inbox?compose=CllgCJNtfNJNwrNwFGFDpQWdMfrRrrjlQHGpSMQjKwszZtDmfwCWBzSzPtzZHXHWQzPZdksqjFg"><i class="fas fa-2x fa-envelope-square" style="flex-direction: row;"></i></li>  |
+            
+              <a href="https://www.instagram.com/realdeepakthapaz/"><i class="fab fa-2x fa-instagram" style="flex-direction: row;"></i></li>
+            </a>
+        </ul>
+        </div>
+      </div>
+      <h10>Contact us</h10>
+      
+      <div class="border"></div>
+     </br>
+      <ul>
+        <i class="fas fa-map-marker-alt"></i> sankata,New-Road,ktm</li></br>
+        <i class="fas fa-phone"></i>015713777</li></br>
+         <i class="fas fa-phone"></i>9851255643</li></br>
+       <i class="fas  fa-envelope-square"></i> prscentre2</br>@email.com</li>
+       </ul>
+         <div class="footer-bottom">
+          Developed by :
+          <p><li>Rachita Basnet</li>
+          <li>Sijan Acharya</li>
+          <li>Sujan Bohara</li>
+
+         <div class="footer-copyright text-center py-3">�� 2020 Copyright:
+      <a href=""> PRS CENTER</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+     </body>
+</html>
